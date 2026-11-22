@@ -1,0 +1,15 @@
+{
+  "schema_version":1,
+  "items":{
+    "rust_sword":{"name":"旅人的旧剑","slot":"weapon","damage":0.0,"hp":0,"incoming":1.0,"speed":0.0,"cooldown":1.0,"price":0,"source":"初始装备"},
+    "cloth_vest":{"name":"旅人的布衣","slot":"armor","damage":0.0,"hp":0,"incoming":1.0,"speed":0.0,"cooldown":1.0,"price":0,"source":"初始装备"},
+    "plain_charm":{"name":"朴素护符","slot":"charm","damage":0.0,"hp":0,"incoming":1.0,"speed":0.0,"cooldown":1.0,"price":0,"source":"初始装备"},
+    "echo_blade":{"name":"回响长剑","slot":"weapon","damage":0.18,"hp":0,"incoming":1.0,"speed":0.0,"cooldown":1.0,"price":0,"source":"主线委托奖励"},
+    "guard_vest":{"name":"巡守者胸甲","slot":"armor","damage":0.0,"hp":24,"incoming":0.90,"speed":0.0,"cooldown":1.0,"price":180,"source":"铁匠出售"},
+    "wind_charm":{"name":"轻风吊坠","slot":"charm","damage":0.0,"hp":0,"incoming":1.0,"speed":0.08,"cooldown":1.0,"price":120,"source":"铁匠出售"},
+    "light_sabre":{"name":"轻锋剑","slot":"weapon","damage":0.10,"hp":0,"incoming":1.0,"speed":0.0,"cooldown":0.85,"price":160,"source":"铁匠出售"},
+    "scout_vest":{"name":"游猎短甲","slot":"armor","damage":0.0,"hp":12,"incoming":0.96,"speed":0.08,"cooldown":1.0,"price":180,"source":"铁匠出售"},
+    "ruin_charm":{"name":"遗迹晶石","slot":"charm","damage":0.0,"hp":8,"incoming":1.0,"speed":0.0,"cooldown":0.90,"price":0,"source":"首次击败回响守门人"},
+    "echo_plate":{"name":"回响重甲","slot":"armor","damage":0.0,"hp":36,"incoming":0.82,"speed":0.0,"cooldown":1.15,"price":0,"source":"「精英回响」委托奖励"}
+  }
+}

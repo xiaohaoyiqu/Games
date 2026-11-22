@@ -1,0 +1,8 @@
+{
+  "schema_version":1,
+  "quests":{
+    "echo":{"name":"沉寂的回响","description":"进入回响遗迹，击败回响守门人并通关一次。","type":"clear","goal":1,"gold":100,"xp":80,"item":"echo_blade"},
+    "patrol":{"name":"清理外廊","description":"在遗迹中累计击败 6 个敌人，清退巡守路线上的威胁。","type":"kills","goal":6,"gold":60,"xp":40,"item":""},
+    "veteran_echo":{"name":"精英回响","description":"完成普通难度并达到 2 级后，通关一次精英回响遗迹。","type":"veteran_clear","goal":1,"gold":150,"xp":100,"item":"echo_plate"}
+  }
+}

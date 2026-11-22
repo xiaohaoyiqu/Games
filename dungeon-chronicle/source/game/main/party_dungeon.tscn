@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://game/main/party_dungeon.gd" id="1"]
+[ext_resource type="Script" path="res://game/presentation/camp_actor_art.gd" id="2_camp_art"]
+
+[sub_resource type="Resource" id="Resource_camp_art"]
+script = ExtResource("2_camp_art")
+
+[node name="PartyDungeon" type="Node2D"]
+script = ExtResource("1")
+camp_actor_art = SubResource("Resource_camp_art")

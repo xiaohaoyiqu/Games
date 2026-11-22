@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "modes": {
+    "normal": {"name":"普通","unlock_clears":0,"unlock_level":1,"enemy_hp_percent":100,"enemy_damage_percent":100,"gold_percent":100,"xp_percent":100,"materials":3},
+    "veteran": {"name":"精英","unlock_clears":1,"unlock_level":2,"enemy_hp_percent":140,"enemy_damage_percent":120,"gold_percent":150,"xp_percent":150,"materials":5}
+  }
+}

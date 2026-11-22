@@ -1,0 +1,400 @@
+[gd_resource type="SpriteFrames" load_steps=55 format=3]
+
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/idle.png" id="idle"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/walk.png" id="walk"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/slash_1.png" id="slash_1"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/hurt.png" id="hurt"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/slash_2.png" id="slash_2"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/slash_3.png" id="slash_3"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/dash.png" id="dash"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/jump_land.png" id="jump_land"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/knockdown_death.png" id="knockdown_death"]
+[ext_resource type="Texture2D" path="res://素材/运行/角色/绵羊剑士/rising_slash.png" id="rising_slash"]
+
+[sub_resource type="AtlasTexture" id="idle_0"]
+atlas = ExtResource("idle")
+region = Rect2(90, 25, 363, 711)
+margin = Rect2(37, 0, 37, 705)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="idle_1"]
+atlas = ExtResource("idle")
+region = Rect2(602, 18, 363, 719)
+margin = Rect2(37, 0, 37, 713)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="idle_2"]
+atlas = ExtResource("idle")
+region = Rect2(90, 792, 363, 712)
+margin = Rect2(37, 0, 37, 706)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="idle_3"]
+atlas = ExtResource("idle")
+region = Rect2(602, 794, 364, 711)
+margin = Rect2(38, 0, 38, 705)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="walk_0"]
+atlas = ExtResource("walk")
+region = Rect2(125, 17, 365, 609)
+margin = Rect2(0, 0, 15, 603)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="walk_1"]
+atlas = ExtResource("walk")
+region = Rect2(737, 17, 329, 609)
+margin = Rect2(83, 0, 83, 603)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="walk_2"]
+atlas = ExtResource("walk")
+region = Rect2(120, 671, 397, 607)
+margin = Rect2(31, 0, 31, 601)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="walk_3"]
+atlas = ExtResource("walk")
+region = Rect2(744, 675, 345, 596)
+margin = Rect2(69, 0, 69, 590)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_1_0"]
+atlas = ExtResource("slash_1")
+region = Rect2(96, 46, 315, 453)
+margin = Rect2(0, 0, 5, 447)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_1_1"]
+atlas = ExtResource("slash_1")
+region = Rect2(579, 9, 320, 490)
+margin = Rect2(2, 0, 2, 484)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_1_2"]
+atlas = ExtResource("slash_1")
+region = Rect2(1047, 46, 404, 452)
+margin = Rect2(38, 0, 38, 446)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_1_3"]
+atlas = ExtResource("slash_1")
+region = Rect2(43, 547, 460, 455)
+margin = Rect2(30, 0, 30, 449)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_1_4"]
+atlas = ExtResource("slash_1")
+region = Rect2(551, 548, 444, 454)
+margin = Rect2(20, 0, 20, 448)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_1_5"]
+atlas = ExtResource("slash_1")
+region = Rect2(1074, 544, 358, 458)
+margin = Rect2(0, 0, 6, 452)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hurt_0"]
+atlas = ExtResource("hurt")
+region = Rect2(164, 14, 304, 576)
+margin = Rect2(0, 0, 38, 570)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hurt_1"]
+atlas = ExtResource("hurt")
+region = Rect2(723, 55, 367, 537)
+margin = Rect2(5, 0, 5, 531)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hurt_2"]
+atlas = ExtResource("hurt")
+region = Rect2(163, 680, 296, 557)
+margin = Rect2(0, 0, 22, 551)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hurt_3"]
+atlas = ExtResource("hurt")
+region = Rect2(771, 650, 286, 586)
+margin = Rect2(32, 0, 32, 580)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_2_0"]
+atlas = ExtResource("slash_2")
+region = Rect2(84, 31, 410, 600)
+margin = Rect2(0, 0, 18, 594)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_2_1"]
+atlas = ExtResource("slash_2")
+region = Rect2(665, 46, 527, 585)
+margin = Rect2(137, 0, 137, 579)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_2_2"]
+atlas = ExtResource("slash_2")
+region = Rect2(84, 682, 576, 602)
+margin = Rect2(118, 0, 118, 596)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_2_3"]
+atlas = ExtResource("slash_2")
+region = Rect2(673, 680, 445, 605)
+margin = Rect2(21, 0, 21, 599)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_3_0"]
+atlas = ExtResource("slash_3")
+region = Rect2(214, 84, 373, 401)
+margin = Rect2(59, 0, 59, 395)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_3_1"]
+atlas = ExtResource("slash_3")
+region = Rect2(849, 58, 595, 427)
+margin = Rect2(141, 0, 141, 421)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_3_2"]
+atlas = ExtResource("slash_3")
+region = Rect2(152, 517, 502, 482)
+margin = Rect2(14, 0, 14, 476)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="slash_3_3"]
+atlas = ExtResource("slash_3")
+region = Rect2(859, 572, 490, 427)
+margin = Rect2(0, 0, 8, 421)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="dash_0"]
+atlas = ExtResource("dash")
+region = Rect2(52, 124, 469, 462)
+margin = Rect2(0, 0, 7, 456)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="dash_1"]
+atlas = ExtResource("dash")
+region = Rect2(632, 114, 533, 469)
+margin = Rect2(1, 0, 1, 463)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="dash_2"]
+atlas = ExtResource("dash")
+region = Rect2(44, 758, 603, 423)
+margin = Rect2(15, 0, 15, 417)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="dash_3"]
+atlas = ExtResource("dash")
+region = Rect2(718, 688, 485, 493)
+margin = Rect2(0, 0, 19, 487)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="jump_land_0"]
+atlas = ExtResource("jump_land")
+region = Rect2(131, 67, 295, 422)
+margin = Rect2(15, 0, 15, 416)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="jump_land_1"]
+atlas = ExtResource("jump_land")
+region = Rect2(593, 16, 312, 422)
+margin = Rect2(0, 0, 8, 416)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="jump_land_2"]
+atlas = ExtResource("jump_land")
+region = Rect2(112, 531, 310, 465)
+margin = Rect2(0, 0, 10, 459)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="jump_land_3"]
+atlas = ExtResource("jump_land")
+region = Rect2(597, 563, 310, 434)
+margin = Rect2(0, 0, 14, 428)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="jump_land_4"]
+atlas = ExtResource("jump_land")
+region = Rect2(112, 1110, 320, 394)
+margin = Rect2(10, 0, 10, 388)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="jump_land_5"]
+atlas = ExtResource("jump_land")
+region = Rect2(593, 1073, 307, 431)
+margin = Rect2(1, 0, 1, 425)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="knockdown_death_0"]
+atlas = ExtResource("knockdown_death")
+region = Rect2(190, 5, 391, 551)
+margin = Rect2(11, 0, 11, 547)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="knockdown_death_1"]
+atlas = ExtResource("knockdown_death")
+region = Rect2(958, 125, 351, 431)
+margin = Rect2(0, 0, 9, 425)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="knockdown_death_2"]
+atlas = ExtResource("knockdown_death")
+region = Rect2(93, 646, 609, 352)
+margin = Rect2(75, 0, 75, 346)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="knockdown_death_3"]
+atlas = ExtResource("knockdown_death")
+region = Rect2(800, 788, 670, 201)
+margin = Rect2(4, 0, 4, 195)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="rising_slash_0"]
+atlas = ExtResource("rising_slash")
+region = Rect2(110, 127, 370, 455)
+margin = Rect2(4, 0, 4, 449)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="rising_slash_1"]
+atlas = ExtResource("rising_slash")
+region = Rect2(674, 42, 430, 542)
+margin = Rect2(70, 0, 70, 536)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="rising_slash_2"]
+atlas = ExtResource("rising_slash")
+region = Rect2(142, 619, 358, 664)
+margin = Rect2(0, 0, 4, 658)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="rising_slash_3"]
+atlas = ExtResource("rising_slash")
+region = Rect2(690, 715, 408, 568)
+margin = Rect2(24, 0, 24, 562)
+filter_clip = true
+
+[resource]
+animations = [
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("idle_0") }, { "duration": 1.0, "texture": SubResource("idle_1") }, { "duration": 1.0, "texture": SubResource("idle_2") }, { "duration": 1.0, "texture": SubResource("idle_3") }],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("walk_0") }, { "duration": 1.0, "texture": SubResource("walk_1") }, { "duration": 1.0, "texture": SubResource("walk_2") }, { "duration": 1.0, "texture": SubResource("walk_3") }],
+"loop": true,
+"name": &"walk",
+"speed": 10.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("hurt_0") }, { "duration": 1.0, "texture": SubResource("hurt_1") }, { "duration": 1.0, "texture": SubResource("hurt_2") }, { "duration": 1.0, "texture": SubResource("hurt_3") }],
+"loop": false,
+"name": &"hurt",
+"speed": 13.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("dash_0") }, { "duration": 1.0, "texture": SubResource("dash_1") }, { "duration": 1.0, "texture": SubResource("dash_2") }, { "duration": 1.0, "texture": SubResource("dash_3") }],
+"loop": false,
+"name": &"dash",
+"speed": 22.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("jump_land_0") }, { "duration": 1.0, "texture": SubResource("jump_land_1") }],
+"loop": false,
+"name": &"rise",
+"speed": 8.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("jump_land_1") }, { "duration": 1.0, "texture": SubResource("jump_land_2") }],
+"loop": false,
+"name": &"fall",
+"speed": 8.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("jump_land_3") }, { "duration": 1.0, "texture": SubResource("jump_land_4") }, { "duration": 1.0, "texture": SubResource("jump_land_5") }],
+"loop": false,
+"name": &"land",
+"speed": 16.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("knockdown_death_0") }, { "duration": 1.0, "texture": SubResource("knockdown_death_1") }, { "duration": 1.0, "texture": SubResource("knockdown_death_2") }, { "duration": 1.0, "texture": SubResource("knockdown_death_3") }],
+"loop": false,
+"name": &"dead",
+"speed": 9.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_1_0") }, { "duration": 1.0, "texture": SubResource("slash_1_1") }],
+"loop": false,
+"name": &"slash_1.windup",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_1_2") }, { "duration": 1.0, "texture": SubResource("slash_1_3") }],
+"loop": false,
+"name": &"slash_1.active",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_1_4") }, { "duration": 1.0, "texture": SubResource("slash_1_5") }],
+"loop": false,
+"name": &"slash_1.recovery",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_2_0") }],
+"loop": false,
+"name": &"slash_2.windup",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_2_1") }],
+"loop": false,
+"name": &"slash_2.active",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_2_2") }, { "duration": 1.0, "texture": SubResource("slash_2_3") }],
+"loop": false,
+"name": &"slash_2.recovery",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_3_0") }],
+"loop": false,
+"name": &"slash_3.windup",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_3_1") }],
+"loop": false,
+"name": &"slash_3.active",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("slash_3_2") }, { "duration": 1.0, "texture": SubResource("slash_3_3") }],
+"loop": false,
+"name": &"slash_3.recovery",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("rising_slash_0") }],
+"loop": false,
+"name": &"rising_slash.windup",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("rising_slash_1") }, { "duration": 1.0, "texture": SubResource("rising_slash_2") }],
+"loop": false,
+"name": &"rising_slash.active",
+"speed": 12.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("rising_slash_3") }],
+"loop": false,
+"name": &"rising_slash.recovery",
+"speed": 12.0
+}
+]

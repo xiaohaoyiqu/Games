@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "enemies": {
+    "raider": {"name":"遗迹斥候", "hp":58, "speed":0.57, "incoming":1.0, "launch_resistance":1.0, "gold":12, "move":"raider_cut"},
+    "archer": {"name":"苔弓猎手", "hp":44, "speed":0.43, "incoming":1.0, "launch_resistance":1.0, "gold":16, "move":"archer_shot"},
+    "bulwark": {"name":"重甲卫士", "hp":104, "speed":0.34, "incoming":0.7, "launch_resistance":0.38, "gold":24, "move":"bulwark_crush"},
+    "warden": {"name":"回响守门人", "hp":460, "speed":0.38, "incoming":0.9, "launch_resistance":0.0, "gold":120, "move":"warden_slam"}
+  }
+}

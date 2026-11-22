@@ -1,0 +1,43 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3]
+
+[ext_resource type="Texture2D" path="res://素材/运行/角色/训练守卫/guard_hurt.png" id="guard_hurt"]
+
+[sub_resource type="AtlasTexture" id="guard_hurt_0"]
+atlas = ExtResource("guard_hurt")
+region = Rect2(123, 142, 342, 414)
+margin = Rect2(0, 0, 110, 372)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="guard_hurt_1"]
+atlas = ExtResource("guard_hurt")
+region = Rect2(739, 147, 375, 408)
+margin = Rect2(0, 0, 35, 366)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="guard_hurt_2"]
+atlas = ExtResource("guard_hurt")
+region = Rect2(113, 806, 382, 345)
+margin = Rect2(0, 0, 78, 309)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="guard_hurt_3"]
+atlas = ExtResource("guard_hurt")
+region = Rect2(743, 749, 358, 402)
+margin = Rect2(0, 0, 118, 360)
+filter_clip = true
+
+[resource]
+animations = [
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("guard_hurt_0") }],
+"loop": true,
+"name": &"idle",
+"speed": 1.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("guard_hurt_1") }, { "duration": 1.0, "texture": SubResource("guard_hurt_2") }, { "duration": 1.0, "texture": SubResource("guard_hurt_3") }],
+"loop": false,
+"name": &"hurt",
+"speed": 10.0
+}
+]

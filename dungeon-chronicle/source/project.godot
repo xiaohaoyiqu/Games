@@ -1,0 +1,35 @@
+; Dungeon Chronicle - independent 2.5D action prototype.
+config_version=5
+
+[application]
+config/name="Dungeon Chronicle · 地下城纪行"
+config/version="0.5.91-prototype.1"
+run/main_scene="res://game/main/main_menu.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/description="Original belt-scrolling dungeon action prototype."
+
+[editor_plugins]
+enabled=PackedStringArray("res://addons/party_content/plugin.cfg")
+
+[autoload]
+Session="*res://game/services/session.gd"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+
+[gui]
+theme/custom_font.web="res://素材/运行/字体/NotoSansCJKsc-Regular.otf"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.037, 0.043, 0.062, 1)
+
+[physics]
+common/physics_ticks_per_second=60

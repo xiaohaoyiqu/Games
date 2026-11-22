@@ -1,0 +1,33 @@
+{
+  "schema_version":1,
+  "name":"回响遗迹",
+  "player_hp":160,
+  "room_heal":28,
+  "rooms":[
+    {
+      "name":"遗迹外廊", "subtitle":"靠近敌人，留意脚下的前后距离",
+      "enemies":[{"kind":"raider","x":690,"y":545},{"kind":"raider","x":850,"y":428},{"kind":"archer","x":1050,"y":590}],
+      "veteran_formation":{
+        "subtitle":"弓手守住正面箭路，先沿纵深错开",
+        "positions":[{"x":690,"y":465},{"x":735,"y":620},{"x":1075,"y":550}]
+      }
+    },
+    {
+      "name":"断壁兵营", "subtitle":"重甲卫士抗击退，绕到侧面寻找空隙",
+      "enemies":[{"kind":"bulwark","x":755,"y":535},{"kind":"raider","x":900,"y":408},{"kind":"raider","x":1085,"y":585}],
+      "veteran_formation":{
+        "subtitle":"重甲卫士守中，两侧斥候靠近时先拉开距离",
+        "positions":[{"x":675,"y":550},{"x":840,"y":420},{"x":900,"y":605}]
+      }
+    },
+    {
+      "name":"封印回廊", "subtitle":"弓手会拉开距离；冲刺或跳跃避开箭矢",
+      "enemies":[{"kind":"archer","x":800,"y":415},{"kind":"archer","x":1100,"y":590},{"kind":"bulwark","x":920,"y":510},{"kind":"raider","x":690,"y":590}],
+      "veteran_formation":{
+        "subtitle":"两侧都有弓手，先留意近处的斥候",
+        "positions":[{"x":1075,"y":420},{"x":1110,"y":600},{"x":850,"y":555},{"x":720,"y":520}]
+      }
+    },
+    {"name":"回响王座", "subtitle":"观察红色预警，跳过震地波，冲刺避开横扫", "enemies":[{"kind":"warden","x":850,"y":530}]}
+  ]
+}

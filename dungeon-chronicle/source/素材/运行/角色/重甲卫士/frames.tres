@@ -1,0 +1,141 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3]
+
+[ext_resource type="Texture2D" path="res://素材/运行/角色/重甲卫士/camp-bulwark.png" id="guard"]
+
+[sub_resource type="AtlasTexture" id="bulwark_0"]
+atlas = ExtResource("guard")
+region = Rect2(170, 21, 243, 314)
+margin = Rect2(130, 52, 269, 406)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_1"]
+atlas = ExtResource("guard")
+region = Rect2(600, 22, 261, 310)
+margin = Rect2(121, 56, 251, 410)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_2"]
+atlas = ExtResource("guard")
+region = Rect2(1085, 26, 229, 308)
+margin = Rect2(142, 58, 283, 412)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_3"]
+atlas = ExtResource("guard")
+region = Rect2(161, 395, 271, 291)
+margin = Rect2(124, 75, 241, 429)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_4"]
+atlas = ExtResource("guard")
+region = Rect2(594, 347, 294, 340)
+margin = Rect2(118, 26, 218, 380)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_5"]
+atlas = ExtResource("guard")
+region = Rect2(1062, 400, 306, 286)
+margin = Rect2(174, 80, 206, 434)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_6"]
+atlas = ExtResource("guard")
+region = Rect2(154, 727, 286, 310)
+margin = Rect2(114, 56, 226, 410)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_7"]
+atlas = ExtResource("guard")
+region = Rect2(536, 721, 345, 316)
+margin = Rect2(46, 50, 167, 404)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="bulwark_8"]
+atlas = ExtResource("guard")
+region = Rect2(1054, 771, 266, 267)
+margin = Rect2(122, 99, 246, 453)
+filter_clip = true
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bulwark_0")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bulwark_1")
+}, {
+"duration": 1.0,
+"texture": SubResource("bulwark_2")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 3.0,
+"texture": SubResource("bulwark_3")
+}, {
+"duration": 2.0,
+"texture": SubResource("bulwark_4")
+}],
+"loop": false,
+"name": &"bulwark_crush.windup",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bulwark_5")
+}],
+"loop": false,
+"name": &"bulwark_crush.active",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 2.0,
+"texture": SubResource("bulwark_6")
+}, {
+"duration": 1.0,
+"texture": SubResource("bulwark_0")
+}],
+"loop": false,
+"name": &"bulwark_crush.recovery",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bulwark_7")
+}],
+"loop": false,
+"name": &"hurt",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bulwark_7")
+}],
+"loop": false,
+"name": &"rise",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bulwark_7")
+}],
+"loop": false,
+"name": &"fall",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("bulwark_8")
+}],
+"loop": false,
+"name": &"dead",
+"speed": 12.0
+}]

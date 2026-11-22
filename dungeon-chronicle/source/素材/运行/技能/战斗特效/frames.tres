@@ -1,0 +1,68 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3]
+
+[ext_resource type="Texture2D" path="res://素材/运行/技能/战斗特效/rising_fx.png" id="rising_fx"]
+[ext_resource type="Texture2D" path="res://素材/运行/技能/战斗特效/hit_spark.png" id="hit_spark"]
+
+[sub_resource type="AtlasTexture" id="rising_fx_0"]
+atlas = ExtResource("rising_fx")
+region = Rect2(186, 392, 156, 63)
+margin = Rect2(120, 0, 120, 27)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="rising_fx_1"]
+atlas = ExtResource("rising_fx")
+region = Rect2(955, 148, 406, 305)
+margin = Rect2(370, 0, 370, 269)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="rising_fx_2"]
+atlas = ExtResource("rising_fx")
+region = Rect2(151, 560, 492, 392)
+margin = Rect2(456, 0, 456, 356)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="rising_fx_3"]
+atlas = ExtResource("rising_fx")
+region = Rect2(938, 563, 462, 380)
+margin = Rect2(426, 0, 426, 344)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hit_spark_0"]
+atlas = ExtResource("hit_spark")
+region = Rect2(363, 240, 84, 82)
+margin = Rect2(0, 0, 0, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hit_spark_1"]
+atlas = ExtResource("hit_spark")
+region = Rect2(1033, 183, 188, 188)
+margin = Rect2(0, 0, 0, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hit_spark_2"]
+atlas = ExtResource("hit_spark")
+region = Rect2(327, 672, 163, 164)
+margin = Rect2(0, 0, 1, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="hit_spark_3"]
+atlas = ExtResource("hit_spark")
+region = Rect2(1063, 696, 130, 120)
+margin = Rect2(0, 0, 0, 0)
+filter_clip = true
+
+[resource]
+animations = [
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("rising_fx_0") }, { "duration": 1.0, "texture": SubResource("rising_fx_1") }, { "duration": 1.0, "texture": SubResource("rising_fx_2") }, { "duration": 1.0, "texture": SubResource("rising_fx_3") }],
+"loop": false,
+"name": &"rising_slash_fx",
+"speed": 16.0
+},
+{
+"frames": [{ "duration": 1.0, "texture": SubResource("hit_spark_0") }, { "duration": 1.0, "texture": SubResource("hit_spark_1") }, { "duration": 1.0, "texture": SubResource("hit_spark_2") }, { "duration": 1.0, "texture": SubResource("hit_spark_3") }],
+"loop": false,
+"name": &"hit_spark",
+"speed": 26.0
+}
+]
