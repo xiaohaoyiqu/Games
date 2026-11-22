@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "tracks": [
+    {"id":"harbor-loop","resource":"/data/circuit.json","description":"海湾长弯与流畅回程，适合基础驾驶和综合试车。","theme":"HARBOR","scenerySeed":623,"flowStart":0.27,"flowEnd":0.56},
+    {"id":"woodland-technical","resource":"/data/tracks/woodland-technical.json","description":"长直道接技术弯，连续左右变向与放宽的回折区。","theme":"FOREST","scenerySeed":7241,"flowStart":0.29,"flowEnd":0.60},
+    {"id":"park-highspeed","resource":"/data/tracks/park-highspeed.json","description":"18 米宽公园环线，长直道、东门制动、湖畔换向与西园长弯。距离牌用于熟悉路线。","theme":"PARK","scenerySeed":11807,"flowStart":0.29,"flowEnd":0.59,
+      "sections":[
+        {"id":"east-gate","name":"东门弯入口","anchor":2,"side":1,"boards":[100,50]},
+        {"id":"lakeside","name":"湖畔换向","anchor":5,"side":1,"boards":[80,40]},
+        {"id":"north-garden","name":"北园回折","anchor":8,"side":1,"boards":[80,40]},
+        {"id":"west-garden","name":"西园长弯","anchor":12,"side":1,"boards":[100,50]},
+        {"id":"south-esses","name":"南坡连续弯","anchor":15,"side":1,"boards":[80,40]}
+      ]},
+    {"id":"dockside-street","resource":"/data/tracks/dockside-street.json","description":"14 米宽港区街道：码头直路、海关换向、北堤制动与仓库回程。低矮建筑和分段护栏留出观察、恢复与汇入空间。","theme":"STREET","scenerySeed":11923,"flowStart":0.30,"flowEnd":0.61,
+      "sections":[
+        {"id":"east-wharf","name":"东码头制动","anchor":3,"side":1,"boards":[100,50]},
+        {"id":"customs","name":"海关换向","anchor":7,"side":-1,"boards":[80,40]},
+        {"id":"north-quay","name":"北堤弯入口","anchor":11,"side":1,"boards":[80,40]},
+        {"id":"warehouse","name":"仓库区回折","anchor":15,"side":-1,"boards":[80,40]},
+        {"id":"west-dock","name":"西港回程","anchor":20,"side":1,"boards":[80,40]}
+      ]}
+  ]
+}

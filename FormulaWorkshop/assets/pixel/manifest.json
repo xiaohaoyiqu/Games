@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "cars": "cars.png", "tiles": "tiles.png", "props": "props.png",
+  "paintRegions": "paint-regions.json",
+  "carFrameSize": 64, "directions": 16, "liveries": 5,
+  "carWorldSize": 5.2,
+  "tileSize": 32, "propWidth": 32, "propHeight": 48,
+  "palette": {"grass":"#527b52", "road":"#384655", "roadEdge":"#e3e3c4", "kerb":"#e47b65", "water":"#427e95", "mark":"#edd586", "training":"#596978"}
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+
+
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.f1car</groupId>
+    <artifactId>formula-workshop</artifactId>
+    <version>0.7.0-preview.11</version>
+    <name>Formula Workshop</name>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>17</maven.compiler.release>
+        <jme.version>3.8.1-stable</jme.version>
+        <minie.version>9.0.3</minie.version>
+        <f1car.testReports>${project.build.directory}/surefire-reports</f1car.testReports>
+    </properties>
+    <dependencies>
+        <dependency><groupId>org.jmonkeyengine</groupId><artifactId>jme3-core</artifactId><version>${jme.version}</version></dependency>
+        <dependency><groupId>org.jmonkeyengine</groupId><artifactId>jme3-desktop</artifactId><version>${jme.version}</version></dependency>
+        <dependency><groupId>org.jmonkeyengine</groupId><artifactId>jme3-lwjgl3</artifactId><version>${jme.version}</version></dependency>
+        <dependency><groupId>org.jmonkeyengine</groupId><artifactId>jme3-effects</artifactId><version>${jme.version}</version></dependency>
+        <dependency><groupId>org.jmonkeyengine</groupId><artifactId>jme3-plugins</artifactId><version>${jme.version}</version></dependency>
+        <dependency><groupId>com.github.stephengold</groupId><artifactId>Minie</artifactId><version>${minie.version}</version></dependency>
+        <dependency><groupId>com.google.code.gson</groupId><artifactId>gson</artifactId><version>2.11.0</version></dependency>
+
+        <dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId><version>5.11.4</version><scope>test</scope></dependency>
+    </dependencies>
+    <build>
+        <finalName>formula-workshop</finalName>
+
+        <plugins>
+            <plugin><groupId>org.apache.maven.plugins</groupId
+            ><artifactId>maven-compiler-plugin</artifactId><version>3.13.0</version></plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.5.2</version>
+                <configuration><argLine>--enable-native-access=ALL-UNNAMED</argLine><reportsDirectory>${f1car.testReports}</reportsDirectory><systemPropertyVariables><java.awt.headless>true</java.awt.headless></systemPropertyVariables></configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><artifactId>maven-jar-plugin</artifactId><version>3.4.2</version>
+                <configuration><archive><manifest><mainClass>com.f1car.Main</mainClass><addClasspath>true</addClasspath><addDefaultImplementationEntries>true</addDefaultImplementationEntries><classpathPrefix>lib/</classpathPrefix></manifest></archive></configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId><version>3.8.1</version>
+                <executions><execution><id>runtime-libraries</id><phase>package</phase><goals><goal>copy-dependencies</goal></goals><configuration><includeScope>runtime</includeScope><outputDirectory>${project.build.directory}/lib</outputDirectory></configuration></execution></executions>
+            </plugin>
+
+
+        </plugins>
+
+    </build>
+
+</project>
+

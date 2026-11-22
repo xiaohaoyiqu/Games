@@ -1,0 +1,34 @@
+{
+  "jmonkeyengine-3.8.1-stable": {
+    "source": "https://raw.githubusercontent.com/jMonkeyEngine/jmonkeyengine/v3.8.1-stable/LICENSE.md",
+    "sha256": "fe47d99c352ce1cc69005f7d47cfd5f3c23700599946c196c03af04dce97dddb"
+  },
+  "minie-9.0.3": {
+    "source": "https://raw.githubusercontent.com/stephengold/Minie/9.0.3/LICENSE",
+    "sha256": "433abba2840d03767d9821c7df22365f314414f763ca3420189b19da7a4ed723"
+  },
+  "heart-9.2.0": {
+    "source": "https://raw.githubusercontent.com/stephengold/Heart/9.2.0/license.txt",
+    "sha256": "d7b68bc288790c77d78fd48fe89b16fecd78f30f54f806cd1f0da35b47b88d88"
+  },
+  "libbulletjme-22.0.3": {
+    "source": "https://raw.githubusercontent.com/stephengold/Libbulletjme/22.0.3/LICENSE",
+    "sha256": "ad7dbedb8da762366e8938022d8ac3076354122c8aff19818008afdc3e7172f2"
+  },
+  "lwjgl-3.3.6": {
+    "source": "https://raw.githubusercontent.com/LWJGL/lwjgl3/3.3.6/LICENSE.md",
+    "sha256": "4c2f770897d0cfda4d9a65bb4d6d6983dccfd57d4c7eb74ea5ded0762cbc0e75"
+  },
+  "gson-2.11.0": {
+    "source": "https://raw.githubusercontent.com/google/gson/gson-parent-2.11.0/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "error-prone-2.27.0": {
+    "source": "https://raw.githubusercontent.com/google/error-prone/v2.27.0/COPYING",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "slf4j-1.7.32": {
+    "source": "https://raw.githubusercontent.com/qos-ch/slf4j/v_1.7.32/LICENSE.txt",
+    "sha256": "899cb2e2f92e74ec969e477503c6442fb50bec5d523bc87dc40bad3419113c3b"
+  }
+}

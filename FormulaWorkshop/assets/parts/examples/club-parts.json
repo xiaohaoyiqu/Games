@@ -1,0 +1,8 @@
+{
+  "kind":"formula-workshop-parts","version":1,
+  "id":"club-parts","revision":1,"name":"玩家部件包示例","author":"本地创作者",
+  "parts":[
+    {"id":"club-parts:club-brakes","slot":"BRAKES","name":"工坊配套制动","purpose":"依赖规则演示：需搭配工坊悬挂组件。","tradeoff":"作者定义的游戏配套规则；不代表真实机械接口或新增防滑效果。","points":2,"color":"58d9cb","settings":{"BRAKES":{"min":95,"max":110,"initial":105},"BRAKE_BIAS":{"min":50,"max":60,"initial":55}},"requires":["builtin:suspension-club"],"excludes":[]},
+    {"id":"club-parts:balanced-wing","slot":"AERO","name":"工坊均衡尾翼","purpose":"在原厂附近调节尾翼系数。","tradeoff":"禁配规则演示：此方案不与竞赛动力组件组合。","points":2,"color":"99b8ff","settings":{"WING":{"min":90,"max":115,"initial":105}},"requires":[],"excludes":["builtin:power-race"]}
+  ]
+}

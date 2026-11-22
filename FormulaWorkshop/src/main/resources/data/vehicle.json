@@ -1,0 +1,14 @@
+{
+  "id": "fw-01",
+  "name": "FW-01",
+  "massKg": 640.0,
+  "wheelRadius": 0.36,
+  "suspensionRestLength": 0.20,
+  "suspensionStiffness": 90.0,
+  "engineForce": 4800.0,
+  "brakeForce": 28.0,
+  "maxSpeedMps": 64.0,
+  "downforceCoefficient": 1.05,
+  "dragCoefficient": 0.34,
+  "physicsVersion": "fw-physics-4-axle-suspension"
+}

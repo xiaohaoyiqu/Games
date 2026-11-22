@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "generator": "scripts/generate_music.py",
+  "sampleRate": 22050,
+  "channels": 1,
+  "bits": 16,
+  "source": "Original note patterns and additive synthesis; no external samples.",
+  "assets": [
+    {
+      "file": "music-menu.wav",
+      "frames": 784000,
+      "seconds": 35.555556,
+      "sha256": "b3cbf08ff517428a889666e8984eec05a36b99851913cab431d063404bc9aaee",
+      "title": "海湾启程",
+      "bpm": 108,
+      "bars": 16,
+      "loop": true
+    },
+    {
+      "file": "music-workshop.wav",
+      "frames": 962182,
+      "seconds": 43.636372,
+      "sha256": "512a8dfdbbaabb5679054e740c2c81d3eb3f62558656b6a87ee1d31ad7c03e7a",
+      "title": "静夜造路",
+      "bpm": 88,
+      "bars": 16,
+      "loop": true
+    },
+    {
+      "file": "music-race.wav",
+      "frames": 622588,
+      "seconds": 28.235283,
+      "sha256": "1155ba9fb788818be3ee4393fa1377ec1782f0338666a420eaa7a28df5066a6f",
+      "title": "向着终点",
+      "bpm": 136,
+      "bars": 16,
+      "loop": true
+    },
+    {
+      "file": "music-mini.wav",
+      "frames": 682839,
+      "seconds": 30.967755,
+      "sha256": "c3a98ac73a3e8d7a5fb01a672b992549a9c4f139a3bd4c5ada787bce91e80c59",
+      "title": "小小飞驰",
+      "bpm": 124,
+      "bars": 16,
+      "loop": true
+    },
+    {
+      "file": "go.wav",
+      "frames": 14884,
+      "seconds": 0.675011,
+      "sha256": "bce9e50a55f15abe5b94c993489ba67ed04401749291fc34d60860744014a25c"
+    },
+    {
+      "file": "complete.wav",
+      "frames": 22050,
+      "seconds": 1.0,
+      "sha256": "2d2d0fa40de8e9f96cf9267824796b389c2c4516e111d585de13ae2181029832"
+    }
+  ]
+}
